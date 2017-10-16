@@ -29,7 +29,7 @@
 
     <div class="container" id="alertContainer">
       <div class="row" id="alertMessage">
-        
+        {{ notification }}
       </div>
     </div>
 
@@ -37,8 +37,8 @@
       <form id="contactForm" onsubmit="checkContact(); return false;">
         <div class="row">
           <div class="six columns">
-            <label for="exampleEmailInput">Your email</label>
-            <input class="u-full-width" type="text" placeholder="test@mailbox.com" id="exampleEmailInput">
+            <label for="nameInput">Your Name</label>
+            <input class="u-full-width" type="text" placeholder="Zihao" id="nameInput">
           </div>
           <div class="six columns">
             <label for="exampleSubjectInput">Subject</label>
